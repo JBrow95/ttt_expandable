@@ -3,8 +3,10 @@ class Board
     def initialize(size)
         @size = size
         p @size
+        counter = 0
+        while counter < @size
+            p @board = Array.new(size)
+            counter += 1
+        end
     end
 end
-
-b = Board.new(12)
-b
